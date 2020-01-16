@@ -4,4 +4,9 @@ authors = ["isenoz <i.senoz@tue.nl>"]
 version = "0.1.0"
 
 [deps]
+Cubature = "667455a9-e2ce-5579-9412-b964f529a492"
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 ForneyLab = "9fc3f58a-c2cc-5bff-9419-6a294fefdca9"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
