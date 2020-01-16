@@ -1,0 +1,6 @@
+authors = ["isenoz <i.senoz@tue.nl>"]
+name = "GCVNode"
+uuid = "477277bc-387f-11ea-3602-e589d8402389"
+version = "0.1.0"
+
+[deps]
