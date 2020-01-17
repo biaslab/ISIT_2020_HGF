@@ -1,4 +1,14 @@
 export HGF
+export ruleVariationalHGFIn1PVPPP
+export ruleVariationalHGFIn4PPPPV
+export ruleVariationalHGFOutVPPPP
+export ruleVariationalHGFIn3PPPVP
+export ruleVariationalHGFIn2PPVPP
+export ruleSVariationalHGFIn1PVPPP
+export ruleSVariationalHGFIn4PPPPV
+export ruleSVariationalHGFOutVPPPP
+export ruleSVariationalHGFIn2PPVPP
+
 
 @composite HGF (y, x, u, kappa, omega) begin
     @RV y ~ GaussianMeanVariance(x, exp(kappa*u + omega))
@@ -268,7 +278,7 @@ end
 
 
 
-function ForneyLab.averageEnergy(::Type{HGF}, marg_y::ProbabilityDistribution{Univariate}, marg_x::ProbabilityDistribution{Univariate},
+function averageEnergy(::Type{HGF}, marg_y::ProbabilityDistribution{Univariate}, marg_x::ProbabilityDistribution{Univariate},
                                     marg_u::ProbabilityDistribution{Univariate}, marg_kappa::ProbabilityDistribution{Univariate},
                                     marg_omega::ProbabilityDistribution{Univariate})
 
