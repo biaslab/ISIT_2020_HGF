@@ -1,0 +1,1 @@
+import ForneyLab: outboundType, isApplicable, generateId, unsafeMean, unsafeVar, unsafeCov, unsafeMeanCov, Univariate ,@ensureVariables, addNode!, associate!, slug, format, FactorNode, SoftFactor, Interface, VariateType, collectStructuredVariationalNodeInbounds, recognitionFactorId, localRecognitionFactorization, ultimatePartner, marginalString, prod!, averageEnergy

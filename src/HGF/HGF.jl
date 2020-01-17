@@ -1,6 +1,3 @@
-using ForneyLab
-import ForneyLab.unsafeMean, ForneyLab.unsafeCov
-import ForneyLab.Univariate
 export HGF
 
 @composite HGF (y, x, u, kappa, omega) begin
